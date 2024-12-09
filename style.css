@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(image/logo.jpg);
+    
+}
+header{
+   width: 100%;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  box-shadow: 0 9px rgba(128, 128, 128, 0.432);
+}
+
+.bum{
+width: 25%;
+height: 500px;
+background-color: white;
+}
+
+.bumb{
+width: 48%;
+height: 500px;
+background-color: white;
+}
+
+.bumber{
+width: 27%;
+height: 500px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 70px;
+}
+
+.bum img{
+    margin: auto;
+    padding: auto;
+    margin-left: 25%;
+}
+.bumb h1{
+  font-size: 300px;
+  text-align: center;
+  margin: auto;
+
+}
+
+#men{
+    font-size: 180px;
+    color: rgb(226, 125, 143);
+}
+
+
+nav{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(247, 173, 186);
+    box-shadow: 0 9px rgba(128, 128, 128, 0.432);
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    
+    display: inline-flex;
+    text-align: center;
+}
+
+ nav li a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 420px;
+    color: white;
+    padding-top: 120px;
+    font-size: 100px;
+    font-weight: bold;
+
+ }
+ 
+ #hov{
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+    font-weight: 10px;
+ }
+
+
+.jon{
+margin-top:10px;
+width: 70%;
+height: 1600px;
+background-color: black;
+margin: auto;
+padding: 0;
+position: relative;
+box-shadow: 6px 6px rgba(26, 24, 24, 0.37); 
+border-left: 1px solid gray;
+border-radius: 50px;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 130px;
+    font-weight: 90px;
+    opacity: 0;
+    animation: showText 0.3s ease-in 1s forwards;
+}
+
+@keyframes showText {
+    to{
+        opacity: 1;
+    }
+}
+
+.bumber button{
+    padding: 10px 120px;
+    border: 16px solid rgb(247, 173, 186);;
+    background-color: rgba(209, 194, 194, 0.781);
+    border-radius: 30px;
+    color: black;
+
+}
+.bumber button p{
+    font-size: 100px;
+    font-weight: 10px;
+}
+
+
+
+.jojo{
+    margin-top: 50px;
+    width: 2000px;
+    height: 1600px;
+    background-color: black;
+   margin-left: 950px;
+   border: 1px solid grey;
+   border-radius: 50px;
+  
+    }
+.gg{
+    width: 2000px;
+    height: 1600px;
+}
+
+.er{
+    width: 70%;
+    height: 1700px;
+    background-color: rgba(139, 65, 115, 0.541);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 230px;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+
+.era{
+    width: 2000px;
+    height: 1600px;
+    background-color: black;
+    margin-top: 60px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+.era:hover{
+    transform: translateY(-20px);
+}
+
+
+.eee{
+    width: 2000px;
+    height: 1700px;
+    background-color: transparent;
+   
+}
+
+.erp{
+    width: 2000px;
+    height: 800px;
+    background-color: transparent;
+    margin-top: 30px;
+    border: 1px solid pink;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .erp:hover{
+    transform: translateY(-20px);
+  }
+
+  .erc{
+    width: 2000px;
+    height: 800px;
+    background-color: transparent;
+   margin-top: 40px; 
+   border: 1px solid pink;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+  .erc:hover{
+    transform: translateY(-20px);
+  }
+  
+.err{
+    width: 70%;
+    height: 1800px;
+    background-color: rgba(139, 65, 115, 0.541);
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid pink;
+    border-radius: 20px;
+    position: relative;
+}
+.err h1{
+    text-align: center;
+    font-size: 12em;
+    color: white;
+}
+.err img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 90px;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+
